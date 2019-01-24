@@ -13,9 +13,9 @@ class Game
       puts "Joueur n°2 quel est ton nom?"
       player_2 = Player.new(gets.chomp, "O")
       @player_array = [player_1, player_2]
+      @board =  Board.new
       @status = "on going"
       @current_player = player_1 
-      @board =  Board.new
     end
   
     def turn
