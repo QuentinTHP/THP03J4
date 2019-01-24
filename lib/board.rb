@@ -10,17 +10,15 @@ class Board
       #TO DO :
       #Quand la classe s'initialize, elle doit créer 9 instances BoardCases
       #Ces instances sont rangées dans un array/hash qui est l'attr_accessor de la classe
-      puts "-" * 15
-      puts "|#{a1 = BoardCase.new}|
-      |#{a2 = BoardCase.new}|
-      |#{a3 = BoardCase.new}|"/n
-      puts "|#{b1 = BoardCase.new}|
-      |#{b2 = BoardCase.new}|
-      |#{b3 = BoardCase.new}|"/n
-      puts "|#{c1 = BoardCase.new}|
-      |#{c2 = BoardCase.new}|
-      |#{c3 = BoardCase.new}|"
-      puts "-" * 15
+      print "\n" + "\n" + "\n"
+      print " "*7 + " " * 5 + "|" + " " * 5 + "|" + " " * 5 + "\n"
+      puts " "*7 + "  #  |  #  |  #  "
+      print " "*6 + "—" * 6 + "|" + "—" * 5 + "|" + "—" * 6 + "\n"
+      puts " "*7 + "  #  |  #  |  #  "
+      print " "*6 + "—" * 6 + "|" + "—" * 5 + "|" + "—" * 6 + "\n"
+      puts " "*7 + "  #  |  #  |  #  " 
+      print " "*7 + " " * 5 + "|" + " " * 5 + "|" + " " * 5 + "\n" 
+      print "\n" + "\n" + "\n"
 
     end
   
