@@ -8,8 +8,8 @@ class BoardCase
     # La place provient d'un gets.chomp et correspond a un joueur 
     def initialize(string_symbol, place)
       #TO DO : doit régler sa valeur, ainsi que son numéro de case
-      @string_symbol = name
-      @place = symbol
+      @string_symbol = string_symbol
+      @place = place
     end
     
 end
